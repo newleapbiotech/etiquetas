@@ -17,6 +17,8 @@ import '@fontsource/caveat/400.css';
 import '@fontsource/caveat/700.css';
 import './app.css';
 import App from './App.svelte';
+// NewLeap Biotech: carga la etiqueta que llega en la URL (#id=...&img=...).
+import './lib/newleap/cargar-desde-url.svelte';
 
 const app = mount(App, { target: document.getElementById('app')! });
 
