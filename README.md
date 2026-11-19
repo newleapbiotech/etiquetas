@@ -219,3 +219,7 @@ npm run print-test   # prints an orientation test pattern on the loaded label
 ## License
 
 [MIT](LICENSE)
+
+---
+
+Copia adaptada para NewLeap Biotech: carga de etiqueta desde la URL.
