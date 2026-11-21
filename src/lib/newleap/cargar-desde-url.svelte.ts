@@ -17,8 +17,9 @@ import type { LabelSpec } from '../printer/types';
 
 const PREFIJO = 'data:image/png;base64,';
 const ID_ELEMENTO = 'newleap-etiqueta';
-/** T53044: rollo de 66 x 25 mm del catálogo T50/T80. */
-const ID_ROLLO_66X25 = '5377';
+/** Rollo por defecto hasta que la impresora diga cuál lleva: T53144 (25 x 66 mm, vertical),
+ *  el de NewLeap (en el rollo pone T53144E). El apaisado de 66 x 25 es el T53044 ('5377'). */
+const ID_ROLLO_66X25 = '5489';
 
 /** PNG original recibido por la URL (sin girar). */
 let original: string | null = null;
